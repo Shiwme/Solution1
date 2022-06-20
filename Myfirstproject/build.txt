@@ -1,0 +1,3 @@
+displayName = Loyality mod
+author = Hurt
+version = 0.1
