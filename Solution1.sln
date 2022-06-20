@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7901068F-A230-4D64-B205-5EC75888F9D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\build.txt = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\build.txt
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\description.txt = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\description.txt
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\icon.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\icon.png
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Myfirstproject.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Myfirstproject.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Myfirstproject.csproj = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Myfirstproject.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{ACF80FAE-9F36-45F8-9649-1BD3919E02AA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\FlowerSword.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\FlowerSword.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\FlowerSword.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\FlowerSword.png
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\HiltOfTheCursedCross.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\HiltOfTheCursedCross.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\HiltOfTheCursedCross.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\HiltOfTheCursedCross.png
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\SpiderBow.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\SpiderBow.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\SpiderBow.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\SpiderBow.png
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheCursedCross.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheCursedCross.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheCursedCross.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheCursedCross.png
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheSwordOfFallenDemon.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheSwordOfFallenDemon.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheSwordOfFallenDemon.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Items\TheSwordOfFallenDemon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projectiles", "Projectiles", "{AF3EB517-81E1-4CE2-8798-2958867D1DA3}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Projectile\CCProjectile.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Projectile\CCProjectile.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Projectile\CCProjectile.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Projectile\CCProjectile.png
+		МойПроект\CCProjectile2.png = МойПроект\CCProjectile2.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{DBC297DF-7732-46C6-A584-281222720457}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Properties\launchSettings.json = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enemies", "Enemies", "{90BC324C-9F44-4144-AEB0-B10EB9071225}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Enemies\WoodSlime.cs = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Enemies\WoodSlime.cs
+		..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Enemies\WoodSlime.png = ..\Documents\My Games\Terraria\tModLoader\ModSources\Myfirstproject\Enemies\WoodSlime.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACF80FAE-9F36-45F8-9649-1BD3919E02AA} = {7901068F-A230-4D64-B205-5EC75888F9D9}
+		{AF3EB517-81E1-4CE2-8798-2958867D1DA3} = {7901068F-A230-4D64-B205-5EC75888F9D9}
+		{DBC297DF-7732-46C6-A584-281222720457} = {7901068F-A230-4D64-B205-5EC75888F9D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA2DC6FA-58BE-455C-9E9D-428DB11D23FC}
+	EndGlobalSection
+EndGlobal
