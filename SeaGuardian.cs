@@ -38,9 +38,9 @@ namespace Myfirstproject.Enemies.OverWorldNPC
             NPC.DeathSound = SoundID.NPCDeath1;
             NPC.value = 60f;
             NPC.knockBackResist = 0.5f;
-            NPC.aiStyle = 0;
+            NPC.aiStyle = 30;
             AnimationType = 10;
-            AIType = 156;
+            AIType = 289;
             //aiType = 86;
             //animationType = 3;
         }
@@ -82,10 +82,21 @@ namespace Myfirstproject.Enemies.OverWorldNPC
             npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DefenderTrident>(), 15, 1));
         }
 
-        private int attackCounter;
-        public override void SendExtraAI(BinaryWriter writer)
+        public override void AI()
         {
-            base.SendExtraAI(writer);
+            NPC.TargetClosest();
+            if (NPC.HasValidTarget && Main.netMode != NetmodeID.MultiplayerClient)
+            {
+                Vector2 position = NPC.Center;
+                Vector2 targetPosition = Main.player[NPC.target].Center;
+                Vector2 direction = targetPosition - position;
+                direction.Normalize();
+                float speed = 7f;
+                int type = ModContent.ProjectileType<WaterBallHostile>();
+                int damage = 1;
+                var entitySource = NPC.GetSource_FromAI();
+                Projectile.NewProjectile(entitySource, position, direction * speed, type, damage, 0f, Main.myPlayer);
+            }
         }
     }
 }
